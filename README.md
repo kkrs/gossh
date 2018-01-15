@@ -1,5 +1,8 @@
 # gossh
 
+## Install
+git download and then run go install locally
+
 ## TODO
     * provide sensible default auth methods
 
