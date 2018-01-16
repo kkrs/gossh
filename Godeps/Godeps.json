@@ -2,10 +2,17 @@
 	"ImportPath": "github.com/kkrs/gossh",
 	"GoVersion": "go1.9",
 	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
 	"Deps": [
 		{
 			"ImportPath": "github.com/golang/glog",
 			"Rev": "23def4e6c14b4da8ac2ed8007337bc5eb5007998"
+		},
+		{
+			"ImportPath": "github.com/xaviershay/grange",
+			"Rev": "7f936294a5d6fea1d92789c9a18f3a8fe565163d"
 		},
 		{
 			"ImportPath": "golang.org/x/crypto/curve25519",
@@ -26,6 +33,15 @@
 		{
 			"ImportPath": "golang.org/x/crypto/ssh/agent",
 			"Rev": "7f7c0c2d75ebb4e32a21396ce36e87b6dadc91c9"
+		},
+		{
+			"ImportPath": "gopkg.in/deckarep/v1/golang-set",
+			"Comment": "v1.6",
+			"Rev": "fc8930a5e645572ee00bf66358ed3414f3c13b90"
+		},
+		{
+			"ImportPath": "vbom.ml/util/sortorder",
+			"Rev": "256737ac55c46798123f754ab7d2c784e2c71783"
 		}
 	]
 }
