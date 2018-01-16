@@ -9,4 +9,4 @@ git download and then run go install locally
 ## BUGS
     * session timeout error is not counted as failure
     * -m 500 on laptop hangs and has more spurious errors
-    * tests
+    * no tests
